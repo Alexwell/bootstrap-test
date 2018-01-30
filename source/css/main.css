@@ -23,17 +23,24 @@ header{
 	        background-size: cover;
 }
 
-.menu_btn{
+/* .menu_btn{
 	color: aqua
-}
+} */
 
 nav{
 	height: 94px;
 	line-height: 94px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
 }
 
 .menu{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .menu li{
@@ -65,7 +72,7 @@ nav{
 .title_block{
 	color: #fff;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 .title_block h1{
