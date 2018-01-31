@@ -4,7 +4,7 @@ body {
 	min-width: 320px;
 }
 
-.p0{
+.p0 {
 	padding: 0;
 }
 
@@ -115,11 +115,12 @@ nav {
 }
 
 /* WORKS SECTION*/
-.work_block{
+
+.work_block {
 	position: relative;
 }
 
-.image_wrap{
+.image_wrap {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -133,12 +134,46 @@ nav {
 	opacity: 0;
 }
 
-.work_block:hover .image_wrap{
+.work_block:hover .image_wrap {
 	opacity: 1;
 }
 
-.work_descr{
+.work_descr {
 	color: #fff;
 	text-align: center;
 	margin: auto;
+}
+
+/* TEAM SECTION */
+
+.team_s {
+	padding: 95px 0;
+}
+
+
+
+.team_item h4 {
+	font-family: 'RalewayBold', sans-serif;
+	color: #000;
+}
+
+.team_item span {
+	text-transform: uppercase;
+	color: #e84545;
+	font-size: 14px;
+}
+
+.team_item p {
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.soc_btn {
+	border: 1px solid #c6cacc;
+	/* padding: 5px 10px; */
+	color: #c6cacc;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+	
 }
