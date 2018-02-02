@@ -75,6 +75,14 @@
 	.img_center {
 		margin: 0 auto;
 	}
+
+	.download {
+		padding: 20px 0 50px 0;
+	}
+
+	.team_s {
+		padding: 60px 0 40px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -83,6 +91,11 @@
 	nav {
 		position: fixed;
 	}
+
+	.menu li {
+		padding: 0;
+	}
+
 	.title_block {
 		margin-top: 130px;
 	}

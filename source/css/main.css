@@ -25,6 +25,21 @@ body {
 	padding: 15px 50px;
 }
 
+.soc_btn_grey {
+	border: 1px solid #c6cacc;
+	color: #c6cacc;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+}
+
+.soc_btn_white {
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+}
 
 /* HEADER */
 
@@ -156,8 +171,6 @@ nav {
 	padding: 95px 0;
 }
 
-
-
 .team_item h4 {
 	font-family: 'RalewayBold', sans-serif;
 	color: #000;
@@ -174,29 +187,56 @@ nav {
 	padding: 10px 0;
 }
 
-.soc_btn {
-	border: 1px solid #c6cacc;
-	/* padding: 5px 10px; */
-	color: #c6cacc;
-	background-color: transparent;
-	width: 30px;
-	height: 30px;
-	
-}
 
 /* DOWNLOAD SECTION */
-.download{
+
+.download {
 	padding: 90px 0;
 }
-.download_block{
+
+.download_block {
 	text-align: center;
 }
 
-.download_block h5{
+.download_block h5 {
 	font-size: 24px;
 }
 
-.download_block p{
+.download_block p {
 	font-family: 'RalewayBold', sans-serif;
 	text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.main_footer {
+	padding: 70px 0;
+	background-color: #3a3e64;
+}
+
+.footer_item {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer_item h5 {
+	font-style: 18px;
+	font-family: 'RalewayBold', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer_item p{
+	font-size: 14px;
+	color: #9d9fb2;
+}
+
+.copyright_block{
+	background-color: #313454;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.copy_txt{
+	color: #9d9fb2;
 }
