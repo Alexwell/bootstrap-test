@@ -17,6 +17,13 @@ body {
 	color: #fff;
 }
 
+.my_btn:hover,
+.my_btn:focus,
+/* .my_btn:active, */
+.my_btn:active:focus {
+	background-color: #e84545;
+}
+
 .btn_md {
 	padding: 10px 30px;
 }
