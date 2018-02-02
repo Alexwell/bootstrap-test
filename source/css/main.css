@@ -14,11 +14,17 @@ body {
 	background-color: #e84545;
 	border: none;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .btn_md {
 	padding: 10px 30px;
 }
+
+.btn_lg {
+	padding: 15px 50px;
+}
+
 
 /* HEADER */
 
@@ -176,4 +182,21 @@ nav {
 	width: 30px;
 	height: 30px;
 	
+}
+
+/* DOWNLOAD SECTION */
+.download{
+	padding: 90px 0;
+}
+.download_block{
+	text-align: center;
+}
+
+.download_block h5{
+	font-size: 24px;
+}
+
+.download_block p{
+	font-family: 'RalewayBold', sans-serif;
+	text-transform: uppercase;
 }
