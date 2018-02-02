@@ -200,6 +200,7 @@ nav {
 	padding: 10px 0;
 }
 
+
 /* DOWNLOAD SECTION */
 
 .download {
@@ -262,4 +263,13 @@ nav {
 
 .dl_form input {
 	margin-bottom: 10px;
+}
+
+.soc_btn {
+	border: 1px solid #c6cacc;
+	/* padding: 5px 10px; */
+	color: #c6cacc;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
 }

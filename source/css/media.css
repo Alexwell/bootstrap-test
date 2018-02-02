@@ -75,6 +75,7 @@
 	.img_center {
 		margin: 0 auto;
 	}
+<<<<<<< HEAD
 	.download {
 		padding: 20px 0 50px 0;
 	}
@@ -88,6 +89,8 @@
 		top: 8px;
 		right: 60px;
 	}
+=======
+>>>>>>> f8f19f01b58a3ccb08348bed2524a3b4ccefaf5e
 }
 
 /* Extra Small Devices, Phones */
@@ -96,9 +99,12 @@
 	nav {
 		position: fixed;
 	}
+<<<<<<< HEAD
 	.menu li {
 		padding: 0;
 	}
+=======
+>>>>>>> f8f19f01b58a3ccb08348bed2524a3b4ccefaf5e
 	.title_block {
 		margin-top: 130px;
 	}
@@ -126,11 +132,15 @@
 
 /* Small Devices, Tablets */
 
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
 	.modal_width {
 		width: 400px;
 	}
 }
+=======
+@media only screen and (min-width: 768px) {}
+>>>>>>> f8f19f01b58a3ccb08348bed2524a3b4ccefaf5e
 
 /* Medium Devices, Desktops */
 
