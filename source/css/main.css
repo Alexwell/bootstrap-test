@@ -41,6 +41,19 @@ body {
 	height: 30px;
 }
 
+.call_btn {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #ff0000;
+	z-index: 999;
+	border: none;
+}
+
 /* HEADER */
 
 header {
@@ -57,7 +70,7 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 9999;
+	z-index: 999;
 }
 
 .menu {
@@ -187,7 +200,6 @@ nav {
 	padding: 10px 0;
 }
 
-
 /* DOWNLOAD SECTION */
 
 .download {
@@ -226,17 +238,28 @@ nav {
 	text-transform: uppercase;
 }
 
-.footer_item p{
+.footer_item p {
 	font-size: 14px;
 	color: #9d9fb2;
 }
 
-.copyright_block{
+.copyright_block {
 	background-color: #313454;
 	text-align: center;
 	padding: 30px 0;
 }
 
-.copy_txt{
+.copy_txt {
 	color: #9d9fb2;
+}
+
+/* MODALS */
+
+.dl_form {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.dl_form input {
+	margin-bottom: 10px;
 }

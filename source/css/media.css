@@ -75,13 +75,18 @@
 	.img_center {
 		margin: 0 auto;
 	}
-
 	.download {
 		padding: 20px 0 50px 0;
 	}
-
 	.team_s {
 		padding: 60px 0 40px;
+	}
+	.dl_form {
+		width: 100%;
+	}
+	.call_btn {
+		top: 8px;
+		right: 60px;
 	}
 }
 
@@ -91,11 +96,9 @@
 	nav {
 		position: fixed;
 	}
-
 	.menu li {
 		padding: 0;
 	}
-
 	.title_block {
 		margin-top: 130px;
 	}
@@ -123,7 +126,11 @@
 
 /* Small Devices, Tablets */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+	.modal_width {
+		width: 400px;
+	}
+}
 
 /* Medium Devices, Desktops */
 
